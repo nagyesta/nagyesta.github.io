@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/own.css" rel="stylesheet">
+    <title>nagyesta - Github</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+    <div class="container col-xxl-8 align-content-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#talks">Talks</a>
+                </li>
+            </ul>
+            <span class="navbar-text ">nagyesta.github.io</span>
+        </div>
+    </div>
+</nav>
+<div id="home" class="container col-xxl-8 px-4 py-5 shadow-lg border-bottom border-light border-0">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <!--suppress CheckImageSize -->
+            <img src="img/hero-image.png" class="d-block mx-lg-auto img-fluid" alt="hero-image" width="700" height="500"
+                 loading="lazy">
+        </div>
+        <div class="col-lg-6">
+            <h3 class="display-9 text-decoration-underline fw-bold lh-lg mb-5">nagyesta.github.io</h3>
+            <h1 class="display-5 fw-bold lh-1 mb-3">Welcome!</h1>
+            <p class="lead">I am Esta, and this is my personal site. Please feel free to find more information about me
+                and my projects listed below...</p>
+        </div>
+    </div>
+</div>
+<div id="about-me"
+     class="container col-xxl-8 px-4 py-5 shadow-lg bg-light text-body border-bottom border-light border-0">
+    <h2>About me</h2>
+    <p>
+        I am a Software Engineer working with Java since 2009. Currently, I am working for <a href="https://epam.com">EPAM
+        Systems</a>. I have been very fortunate to be working on interesting things with talented colleagues. This
+        helped me to learn a lot of fascinating things.
+    </p>
+    <p>
+        I like the idea of life-long learning. It is a must in this profession. The quote below is absolutely right in
+        our case.
+    </p>
+    <div class="container col-11 px-4 py-3 my-3 align-content-center border-start border-5 border-success alert-success">
+        <blockquote class="blockquote">
+            <p>I read my eyes out and can't read half enough...the more one reads the more one sees we have to read.</p>
+            <footer class="blockquote-footer">John Adams in <cite title="Source Title">Letters of John Adams, Addressed
+                to His Wife</cite></footer>
+        </blockquote>
+    </div>
+    <p>
+        I hope to give back to the community by working on a number of open source projects I have started. As a
+        side-effect time, I can learn more while I do so. The grass is green on both sides of my fence.
+    </p>
+</div>
+<div id="projects" class="container py-4 col-xxl-8 shadow-lg bg-dark border-bottom border-light border-0">
+    <h2 class="px-2 pb-3 text-light">Projects</h2>
+    <div class="row pt-2">
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-danger project-image-container">
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="185px"
+                         role="img" aria-label="Yippee-Ki-JSON"
+                         alt="Yippee-Ki-JSON" src="img/yippee-ki-json_small_logo.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Yippee-Ki-JSON</h5>
+                    <p class="card-text">If you often need to perform JSON transformations, this is something you should
+                        check out. At first glance, one would think this is something like XSLT for JSON, but there is a
+                        twist. In this case, you are not defining what you want to see come out of your transformation,
+                        rather you are defining the rules you need to apply, e.g. add/replace/remove some nodes etc.</p>
+                    <a href="https://github.com/nagyesta/yippee-ki-json" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-success project-image-container">
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="250px"
+                         role="img" aria-label="Abort-Mission"
+                         alt="Abort-Mission" src="img/Abort-Mission-logo_export_transparent_640.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Abort-Mission</h5>
+                    <p class="card-text">Leaning into fail fast, this project tries to get as much information as
+                        possible from the test execution while not waiting on test cases which are expected to fail
+                        based on previous experience (e.g. when login is failing, all login based tests will too).
+                        Head over to the project home and find out more if you don't like to wait for test failure.</p>
+                    <a href="https://github.com/nagyesta/abort-mission" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-primary project-image-container">
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="250px"
+                         role="img" aria-label="Cache-Only"
+                         alt="Cache-Only" src="img/CacheOnly_small.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Cache-Only</h5>
+                    <p class="card-text">Not everything is equally simple to cache unfortunately. Bulk/batch APIs are
+                        one of the tricky cases, since the list of items in the request make it less likely that we
+                        would see the same key again. By splitting and merging the request and response, Cache-Only can
+                        reduce the problem and use the tried and true approach of caching single items.</p>
+                    <a href="https://github.com/nagyesta/cache-only" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-4 col-xxl-8 shadow-lg bg-light border-bottom border-light border-0">
+    <h2 id="talks" class="px-2 pb-3">Talks</h2>
+
+    <div class="row pt-2">
+        <div class="col-lg">
+            <div class="card my-3">
+                <div class="card-header">
+                    Z-Nights @ EPAM
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Cache-Only</h5>
+                    <p class="card-text">I had the opportunity to talk about caching basics and the decision-makers you
+                        should consider regarding caching. Check out this 30 minutes long intro talk with the pitch of
+                        Cache-Only.</p>
+                    <a href="https://community-z.com/events/z-nights_feb2021/talks/8116"
+                       class="btn btn-outline-info">Community-Z</a>
+                    <a href="https://www.youtube.com/watch?v=BsXYWn2jRAI" class="btn btn-outline-danger">Youtube</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2021, February
+                </div>
+            </div>
+        </div>
+        <div class="col-lg">
+            <div class="card my-3">
+                <div class="card-header">
+                    Java Lounge @ EPAM Debrecen Java Community
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Abort-Mission</h5>
+                    <p class="card-text">The first ever public talk of Abort-Mission. This presentation starts with the
+                        problem statement, mentions a couple of concepts like fail-fast, F.I.R.S.T., stopping test
+                        execution after the first failure and many more, then concludes with the reveal of abort
+                        mission.</p>
+                    <a href="https://community-z.com/events/fail-fast" class="btn btn-outline-info">Community-Z</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2021, February
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer mt-auto py-4 bg-dark">
+    <div class="container col-xxl-8 align-content-center">
+        <div class="row row-cols-10">
+            <div class="col-sm container py-5">
+                <p class="text-light">nagyesta.github.io</p>
+                <p class="text-light"><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow"><img
+                        src="img/License-CC%20BY--SA%204.0-blue.svg"
+                        alt="License: CC BY-SA 4.0"
+                        title="Creative Commons Attribution Share Alike 4.0"
+                        style="max-width:100%;"></a></p>
+                <p class="text-light"><a href="https://github.com/nagyesta/" class="text-light" rel="nofollow">Profile
+                    page</a></p>
+            </div>
+            <div class="col-xl"></div>
+            <div class="col-sm-2 container py-5">
+                <a href="https://github.com/" rel="nofollow"><img
+                        src="img/GitHub-Mark-Light-32px.png"
+                        alt="Hosted on GitHub"
+                        title="Hosted on GitHub"
+                        style="max-width:100%;"></a> <span class="text-light">Hosted on Github</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+.project-image-container {
+    min-height: 290px;
+    height: 290px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 280px;
+}
+
+.project-image-container img {
+    max-height: 250px;
+}
+
+.min-vh-90 {
+    min-height: 90vh;
+}
