@@ -72,51 +72,16 @@
     </div>
     <p>
         I hope to give back to the community by working on a number of open source projects I have started. As a
-        side-effect, I can learn more while I do so. The grass is green on both sides of my fence.
+        side effect, I can learn more while I do so. The grass is green on both sides of my fence.
     </p>
 </div>
 <div id="projects" class="container py-4 col-xxl-8 shadow-lg bg-dark border-bottom border-light border-0">
     <h2 class="px-2 pb-3 text-light">Projects</h2>
-    <div class="row pt-2">
-        <div class="col-lg py-2">
-            <div class="card">
-                <div class="card-header bg-danger project-image-container">
-                    <img class="img-thumbnail bg-transparent border-0"
-                         width="auto" height="185px"
-                         role="img" aria-label="Yippee-Ki-JSON"
-                         alt="Yippee-Ki-JSON" src="img/yippee-ki-json_small_logo.png">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Yippee-Ki-JSON</h5>
-                    <p class="card-text">If you often need to perform JSON transformations, this is something you should
-                        check out. At first glance, one would think this is something like XSLT for JSON, but there is a
-                        twist. In this case, you are not defining what you want to see come out of your transformation,
-                        rather you are defining the rules you need to apply, e.g. add/replace/remove some nodes etc.</p>
-                    <a href="https://github.com/nagyesta/yippee-ki-json" class="btn btn-outline-secondary">Read more</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg py-2">
-            <div class="card">
-                <div class="card-header bg-success project-image-container">
-                    <img class="img-thumbnail bg-transparent border-0"
-                         width="auto" height="250px"
-                         role="img" aria-label="Abort-Mission"
-                         alt="Abort-Mission" src="img/Abort-Mission-logo_export_transparent_640.png">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Abort-Mission</h5>
-                    <p class="card-text">Leaning into fail fast, this project tries to get as much information as
-                        possible from the test execution while not waiting on test cases which are expected to fail
-                        based on previous experience (e.g. when login is failing, all login based tests will too).
-                        Head over to the project home and find out more if you don't like to wait for test failure.</p>
-                    <a href="https://github.com/nagyesta/abort-mission" class="btn btn-outline-secondary">Read more</a>
-                </div>
-            </div>
-        </div>
+    <div class="row row-cols-lg-3 pt-2">
         <div class="col-lg py-2">
             <div class="card">
                 <div class="card-header bg-primary project-image-container">
+                    <!--suppress CheckImageSize -->
                     <img class="img-thumbnail bg-transparent border-0"
                          width="auto" height="250px"
                          role="img" aria-label="Lowkey-Vault"
@@ -124,12 +89,106 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title fw-bold">Lowkey Vault</h5>
-                    <p class="card-text">It is very important to test our code reliably and fast. In case of managed
-                        cloud services, such as Azure Key Vault, this is not always simple due to the dependency on
-                        the cloud services and implicitly on the internet. Having reliable test doubles can simplify
-                        this setup significantly while it is a minimal compromise. Lowkey Vault aims to provide such
-                        a test double for Azure Key Vault.</p>
+                    <p class="card-text" style="min-height: 15em">It is very important to test our code reliably and
+                        fast. In case of managed cloud services, such as Azure Key Vault, this is not always simple due
+                        to the dependency on the cloud services and implicitly on the internet. Having reliable test
+                        doubles can simplify this setup significantly while it is a minimal compromise. Lowkey Vault
+                        aims to provide such a test double for Azure Key Vault.</p>
                     <a href="https://github.com/nagyesta/lowkey-vault" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-secondary project-image-container">
+                    <!--suppress CheckImageSize -->
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="185px"
+                         role="img" aria-label="File-BaRJ"
+                         alt="File-BaRJ" src="img/FileBarJ-logo-512.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">File-BaRJ</h5>
+                    <p class="card-text" style="min-height: 15em">Backing up our important data can be a real pain.
+                        With File-BaRJ, you can simplify the process of regularly creating encrypted, compressed
+                        incremental backups of your precious files. The archives can be easily and safely moved offsite
+                        to store them securely long term and avoid taking space from what is truly important for you!</p>
+                    <a href="https://github.com/nagyesta/file-barj" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-danger project-image-container">
+                    <!--suppress CheckImageSize -->
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="250px"
+                         role="img" aria-label="Abort-Mission"
+                         alt="Abort-Mission" src="img/Abort-Mission-logo_export_transparent_640.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Abort-Mission</h5>
+                    <p class="card-text" style="min-height: 15em">Leaning into fail fast, this project tries to get as
+                        much information as possible from the test execution while not waiting on test cases which are
+                        expected to fail based on previous experience (e.g. when login is failing, all login based tests
+                        will too). Head over to the project home and find out more if you don't like to wait for test
+                        failure.</p>
+                    <a href="https://github.com/nagyesta/abort-mission" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-dark project-image-container">
+                    <!--suppress CheckImageSize -->
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="250px"
+                         role="img" aria-label="Yippee-Ki-JSON"
+                         alt="Abort-Mission" src="img/yippee-ki-json_small_logo.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Yippee-Ki-JSON</h5>
+                    <p class="card-text" style="min-height: 15em">If you often need to perform JSON transformations,
+                        this is something you should check out. At first glance, one would think this is something like
+                        XSLT for JSON, but there is a twist. In this case, you are not defining what you want to see
+                        come out of your transformation, rather you are defining the rules you need to apply, e.g.
+                        add/replace/remove some nodes etc.</p>
+                    <a href="https://github.com/nagyesta/yippee-ki-json" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-warning project-image-container">
+                    <!--suppress CheckImageSize -->
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="250px"
+                         role="img" aria-label="Cache Only"
+                         alt="Abort-Mission" src="img/AssumedIdentity-Logo-512.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Assumed Identity</h5>
+                    <p class="card-text" style="min-height: 15em">This project started as a companion for Lowkey Vault,
+                    but it might become useful in other use cases as well. Essentially, it acts like a very simple test
+                    double of the API used by Azure's Managed Identity.</p>
+                    <a href="https://github.com/nagyesta/assumed-identity" class="btn btn-outline-secondary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg py-2">
+            <div class="card">
+                <div class="card-header bg-primary project-image-container">
+                    <!--suppress CheckImageSize -->
+                    <img class="img-thumbnail bg-transparent border-0"
+                         width="auto" height="250px"
+                         role="img" aria-label="Cache Only"
+                         alt="Abort-Mission" src="img/CacheOnly_small.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Cache Only</h5>
+                    <p class="card-text" style="min-height: 15em">Cache Only is a simple library that can help you with
+                        a niche problem you can face with caching: effectively caching lists of items.</p>
+                    <a href="https://github.com/nagyesta/cache-only" class="btn btn-outline-secondary">Read more</a>
                 </div>
             </div>
         </div>
@@ -194,15 +253,15 @@
                     <a href="https://www.facebook.com/stepintomeetups"
                        class="btn btn-outline-primary">Facebook</a>
                     <a href="https://www.youtube.com/channel/UCwZ13mLzi5x7FsGGVlBlH6g"
-                       class="btn btn-outline-danger">Youtube</a>
+                       class="btn btn-outline-danger">YouTube</a>
                     <a href="https://www.twitch.tv/stepintomeetups"
                        class="btn btn-outline-secondary">Twitch</a>
                     <a href="https://github.com/stepintomeetups"
-                       class="btn btn-outline-dark">Github</a>
+                       class="btn btn-outline-dark">GitHub</a>
                     <a href="https://discord.com/invite/A5yC5Hhxrs"
                        class="btn btn-outline-secondary">Discord</a>
                     <p></p>
-                    <p class="card-text fw-bold">The recording of Next Level Abstraction on Youtube (Hungarian)</p>
+                    <p class="card-text fw-bold">The recording of Next Level Abstraction on YouTube (Hungarian)</p>
                     <a href="https://www.youtube.com/watch?v=9mR5fpFz6SA" class="btn btn-outline-danger">Part 1:
                         Intro</a>
                     <a href="https://www.youtube.com/watch?v=EBbYXB05IGE" class="btn btn-outline-danger">Part 2:
@@ -237,7 +296,7 @@
                     <a href="https://www.facebook.com/SzabadSzoftverKonferencia/"
                        class="btn btn-outline-primary">Free Software Conference Facebook</a>
                     <a href="https://www.youtube.com/watch?v=P6dY4ElxZXo"
-                       class="btn btn-outline-danger">Recording on Youtube</a>
+                       class="btn btn-outline-danger">Recording on YouTube</a>
                     <p></p>
                 </div>
                 <div class="card-footer text-muted">
@@ -253,7 +312,7 @@
         <div class="row justify-content-between">
             <div class="col-lg-2 py-5">
                 <p class="text-light">nagyesta.github.io</p>
-                <p class="text-light"><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow"><img
+                <p class="text-light"><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow"><img
                         src="img/License-CC%20BY--SA%204.0-blue.svg"
                         alt="License: CC BY-SA 4.0"
                         title="Creative Commons Attribution Share Alike 4.0"
@@ -267,7 +326,7 @@
                             src="img/GitHub-Mark-Light-32px.png"
                             alt="Hosted on GitHub"
                             title="Hosted on GitHub"
-                            style="max-width:100%;"></a> Hosted on Github
+                            style="max-width:100%;"></a> Hosted on GitHub
                 </p>
                 <p class="text-light">
                     <a href="https://getbootstrap.com/" rel="nofollow" class="link-light">
@@ -277,7 +336,7 @@
                             <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"/>
                             <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z"/>
                         </svg>
-                    </a> Powered by Bootsrap 5
+                    </a> Powered by Bootstrap 5
                 </p>
             </div>
         </div>
